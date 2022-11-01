@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-set-up-azure-ad.html 
 keywords: azure netapp files, azure netapp files permissions, azure permissions, active directory, application, ad application, ad app, app, service principal 
-summary: Cloud Manager 需要设置和管理 Azure NetApp Files 的权限。您可以通过创建和设置 Azure Active Directory 应用程序以及获取 Cloud Manager 所需的 Azure 凭据来为 Azure 帐户授予所需权限。 
+summary: BlueXP需要设置和管理Azure NetApp Files 的权限。您可以通过创建和设置Azure Active Directory应用程序以及获取BlueXP所需的Azure凭据来为Azure帐户授予所需权限。 
 ---
 = 设置 Azure AD 应用程序
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: Cloud Manager 需要设置和管理 Azure NetApp Files 的权限。您�
 
 
 [role="lead"]
-Cloud Manager 需要设置和管理 Azure NetApp Files 的权限。您可以通过创建和设置 Azure Active Directory （ AD ）应用程序以及获取 Cloud Manager 所需的 Azure 凭据来为 Azure 帐户授予所需权限。
+BlueXP需要设置和管理Azure NetApp Files 的权限。您可以通过创建和设置Azure Active Directory (AD)应用程序以及获取BlueXP所需的Azure凭据来为Azure帐户授予所需权限。
 
 
 
 == 创建 AD 应用程序
 
-创建一个 Azure AD 应用程序和服务主体， Cloud Manager 可使用该应用程序和服务主体进行基于角色的访问控制。
+创建一个Azure AD应用程序和服务主体、BlueXP可使用该应用程序和服务主体进行基于角色的访问控制。
 
 要创建 Active Directory 应用程序并将此应用程序分配给角色，您必须在 Azure 中拥有适当的权限。有关详细信息，请参见 https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure 文档：所需权限"^]。
 
@@ -36,7 +36,7 @@ image:screenshot_azure_ad.gif["显示 Microsoft Azure 中 Active Directory 服�
 .. 指定有关应用程序的详细信息：
 +
 *** * 名称 * ：输入应用程序的名称。
-*** * 帐户类型 * ：选择帐户类型（任何将适用于 Cloud Manager ）。
+*** *帐户类型*：选择帐户类型(任何将适用于BlueXP)。
 *** * 重定向 URI* ：可以将此字段留空。
 
 
@@ -48,9 +48,9 @@ image:screenshot_azure_ad.gif["显示 Microsoft Azure 中 Active Directory 服�
 image:screenshot_anf_app_ids.gif["显示 Azure Active Directory 中某个应用程序的应用程序（客户端） ID 和目录（租户） ID 的屏幕截图。"]
 
 +
-在 Cloud Manager 中创建 Azure NetApp Files 工作环境时，您需要提供应用程序（客户端） ID 和目录（租户） ID 。Cloud Manager 使用 ID 以编程方式登录。
+在BlueXP中创建Azure NetApp Files 工作环境时、您需要提供应用程序(客户端) ID和目录(租户) ID。BlueXP使用ID以编程方式登录。
 
-. 为应用程序创建客户端密钥，以便 Cloud Manager 使用它向 Azure AD 进行身份验证：
+. 为应用程序创建客户端密钥、以便BlueXP可以使用它向Azure AD进行身份验证：
 +
 .. 单击 * 证书和密码 > 新客户端密钥 * 。
 .. 提供密钥和持续时间的问题描述。
@@ -63,7 +63,7 @@ image:screenshot_anf_client_secret.gif["Azure 门户的屏幕截图，其中显�
 
 
 
-此时，您的 AD 应用程序已设置完毕，您应已复制应用程序（客户端） ID ，目录（租户） ID 和客户端密钥值。添加 Azure NetApp Files 工作环境时，您需要在 Cloud Manager 中输入此信息。
+此时，您的 AD 应用程序已设置完毕，您应已复制应用程序（客户端） ID ，目录（租户） ID 和客户端密钥值。添加Azure NetApp Files 工作环境时、您需要在BlueXP中输入此信息。
 
 
 
@@ -127,7 +127,7 @@ image:screenshot_anf_app_role.png["Azure 门户的屏幕截图，其中显示了
 
 .. 单击 * 审核 + 分配 * 。
 +
-Cloud Manager 的服务主体现在具有该订阅所需的 Azure 权限。
+BlueXP的服务主体现在具有该订阅所需的Azure权限。
 
 
 

@@ -22,7 +22,7 @@ summary: 设置工作环境后，您可以创建 Azure NetApp Files 帐户，容
 
 您可以在新的或现有的 Azure NetApp Files 帐户中创建 NFS 或 SMB 卷。
 
-通过 Cloud Manager 的 " 模板 " 功能，您可以创建针对特定应用程序（例如数据库或流式服务）的工作负载要求进行优化的卷。如果您的组织已创建应使用的卷模板，请按照说明进行操作 <<Create volumes from templates,这些步骤>>。
+通过名为"模板"的BlueXP功能、您可以创建针对特定应用程序(例如数据库或流式服务)的工作负载要求进行优化的卷。如果您的组织已创建应使用的卷模板，请按照说明进行操作  volumes from templates,这些步骤。
 
 .开始之前
 * 如果要使用 SMB 、必须设置 DNS 和 Active Directory 。
@@ -67,7 +67,7 @@ image:screenshot_anf_smb.gif["设置 SMB 卷所需字段的屏幕截图。"]
 
 此时，新卷将添加到工作环境中。
 
-继续 <<Mount volumes,挂载云卷>>。
+继续  volumes,挂载云卷。
 
 
 
@@ -96,11 +96,11 @@ image:screenshot_define_anf_vol_from_template.png["显示创建卷所需填写�
 +
 * 注： * 如果要查看这些参数的值，您可以单击 * 显示只读参数 * 复选框以显示模板锁定的所有字段。默认情况下，这些预定义字段将被隐藏，并且仅显示需要填写的字段。
 
-. 为模板中未硬编码的所有参数添加值。请参见 <<Creating volumes,正在创建卷>> 有关部署 Azure NetApp Files 卷所需完成的所有参数的详细信息。
+. 为模板中未硬编码的所有参数添加值。请参见  volumes,正在创建卷 有关部署 Azure NetApp Files 卷所需完成的所有参数的详细信息。
 . 定义完此卷所需的所有参数后，单击 * 运行模板 * 。
 
 
-Cloud Manager 会配置卷并显示一个页面，以便您可以查看进度。
+BlueXP会配置卷并显示一个页面、以便您可以查看进度。
 
 image:screenshot_template_creating_resource_anf.png["显示通过模板创建新卷的进度的屏幕截图。"]
 
@@ -112,7 +112,7 @@ image:screenshot_template_creating_resource_anf.png["显示通过模板创建新
 
 == 挂载卷
 
-从 Cloud Manager 中访问挂载说明，以便将卷挂载到主机。
+从BlueXP中访问挂载说明、以便将卷挂载到主机。
 
 .步骤
 . 打开工作环境。

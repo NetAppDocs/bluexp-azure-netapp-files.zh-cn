@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-create-working-env.html 
 keywords: azure netapp files, create working environment, working environment 
-summary: 设置 Azure Active Directory 应用程序后，请在 Cloud Manager 中创建 Azure NetApp Files 工作环境，以便开始创建所需的卷。 
+summary: 设置Azure Active Directory应用程序后、请在BlueXP中创建Azure NetApp Files 工作环境、以便开始创建所需的卷。 
 ---
 = 创建 Azure NetApp Files 工作环境
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 设置 Azure Active Directory 应用程序后，请在 Cloud Manager �
 
 
 [role="lead"]
-设置 Azure Active Directory 应用程序后，请在 Cloud Manager 中创建 Azure NetApp Files 工作环境，以便您可以开始创建所需的卷。
+设置Azure Active Directory应用程序后、请在BlueXP中创建Azure NetApp Files 工作环境、以便您可以开始创建所需的卷。
 
 .步骤
 . 在 " 画布 " 页面中，单击 * 添加工作环境 * 。
