@@ -22,6 +22,7 @@ BlueXP需要设置和管理Azure NetApp Files 的权限。您可以通过创建�
 
 创建一个Azure AD应用程序和服务主体、BlueXP可使用该应用程序和服务主体进行基于角色的访问控制。
 
+.开始之前
 要创建 Active Directory 应用程序并将此应用程序分配给角色，您必须在 Azure 中拥有适当的权限。有关详细信息，请参见 https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure 文档：所需权限"^]。
 
 .步骤
@@ -63,6 +64,7 @@ image:screenshot_anf_client_secret.gif["Azure 门户的屏幕截图，其中显�
 
 
 
+.结果
 此时，您的 AD 应用程序已设置完毕，您应已复制应用程序（客户端） ID ，目录（租户） ID 和客户端密钥值。添加Azure NetApp Files 工作环境时、您需要在BlueXP中输入此信息。
 
 

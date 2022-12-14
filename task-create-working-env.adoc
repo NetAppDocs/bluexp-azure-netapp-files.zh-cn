@@ -26,8 +26,10 @@ image:screenshot_anf_details.gif["创建 Azure NetApp Files 工作环境所需�
 . 单击 * 添加 * 。
 
 
+.结果
 现在，您应该拥有一个 Azure NetApp Files 工作环境。
 
 image:screenshot_anf_we.gif["Azure NetApp Files 工作环境的屏幕截图。"]
 
+.下一步是什么？
 link:task-create-volumes.html["开始创建和管理卷"]。
