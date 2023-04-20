@@ -29,7 +29,7 @@ Azure NetApp Files 支持企业在 Azure 中迁移和运行性能密集型且延
 
 == BlueXP中的其他功能
 
-* 直接从BlueXP (以前称为Cloud Manager)将NFS或SMB数据迁移到Azure NetApp Files。数据迁移由 NetApp 的 Cloud Sync 服务提供支持。
+* 直接从BlueXP将NFS或SMB数据迁移到Azure NetApp Files。数据迁移由 NetApp 的 Cloud Sync 服务提供支持。
 +
 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["了解有关 Cloud Sync 的更多信息"^]
 
