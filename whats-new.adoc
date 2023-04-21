@@ -70,4 +70,4 @@ https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-manage-volum
 
 === 将数据迁移到 Azure NetApp Files
 
-现在，您可以直接从 Cloud Manager 将 NFS 或 SMB 数据迁移到 Azure NetApp Files 。数据同步由 NetApp 的 Cloud Sync 服务提供支持。
+现在，您可以直接从 Cloud Manager 将 NFS 或 SMB 数据迁移到 Azure NetApp Files 。数据同步由BlueXP复制和同步提供支持。

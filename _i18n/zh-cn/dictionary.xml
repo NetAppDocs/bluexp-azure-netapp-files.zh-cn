@@ -102,7 +102,6 @@
   <block id="5054d68a0b2f03dece3eb72cfaa09427" category="list-text">通过更改卷大小和管理标记来编辑卷。</block>
   <block id="396a3c9fb559d38e68f68ea139b3539a" category="paragraph">直接从 Cloud Manager 创建和管理 Azure NetApp Files 的功能取代了以前的数据迁移功能。</block>
   <block id="02a58c551f186d8f833147198d69fb26" category="section-title">将数据迁移到 Azure NetApp Files</block>
-  <block id="8d30064c294030bc7a1446fe0cf94ca9" category="paragraph">现在，您可以直接从 Cloud Manager 将 NFS 或 SMB 数据迁移到 Azure NetApp Files 。数据同步由 NetApp 的 Cloud Sync 服务提供支持。</block>
   <block id="af08318aa95b670c097bf944ab12d208" category="summary">设置工作环境后，您可以创建 Azure NetApp Files 帐户，容量池和卷。</block>
   <block id="ba0aa3e7264cbd8d5a1204a3f3d868cc" category="doc">为 Azure NetApp Files 创建和挂载卷</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">创建卷</block>
@@ -167,11 +166,6 @@
   <block id="b4afab774d5aae036a66f2e95c63406b" category="list-text">支持多个协议，可以 " 提升和迁移 " Linux 和 Windows 应用程序，以便在 Azure 中无缝运行。</block>
   <block id="86431e70f2e01436434235b95f27507f" category="list-text">多个性能层可以与工作负载性能要求保持一致。</block>
   <block id="0f5101975c831a1a6350155e818d4cbf" category="list-text">通过 SAP HANA ， GDPR 和 HIPAA 等领先认证，可以将要求最苛刻的工作负载迁移到 Azure 。</block>
-  <block id="c9e8b2e7aec1baa65efcbe84dfc9d0ed" category="inline-link">了解有关 Cloud Sync 的更多信息</block>
-  <block id="707476b7ceb8bcfdb9c13e59859ae97a" category="paragraph"><block ref="707476b7ceb8bcfdb9c13e59859ae97a" category="inline-link-rx"></block></block>
-  <block id="25c46bef01bcfa77e5905b1d3308762a" category="list-text">利用人工智能（ AI ）驱动的技术，云数据感知可以帮助您了解数据环境并识别 Azure NetApp Files 帐户中的敏感数据。</block>
-  <block id="a11b0fe7d09898eeb7b50552e83ef426" category="inline-link">了解有关 Cloud Data sense 的更多信息</block>
-  <block id="3af0f3d8f43764595483a67930d47716" category="paragraph"><block ref="3af0f3d8f43764595483a67930d47716" category="inline-link-rx"></block></block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
   <block id="b8371ae9d98b29b8335a4aea09cdaff3" category="inline-link">查看 Azure NetApp Files 定价</block>
   <block id="4b3f21f8a5b6bf8c27f851053be34ac4" category="paragraph"><block ref="4b3f21f8a5b6bf8c27f851053be34ac4" category="inline-link-rx"></block></block>
@@ -183,8 +177,6 @@
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="section-title">相关链接</block>
   <block id="6c32a3d0f1a665987b98dde5a0f96d7d" category="inline-link">Azure NetApp Files 文档</block>
   <block id="844f85f22af5197ff73f93313cd94cd1" category="list-text"><block ref="844f85f22af5197ff73f93313cd94cd1" category="inline-link-rx"></block></block>
-  <block id="815e6b3583bbc9969fd306b9391ed0cb" category="inline-link">Cloud Sync 文档</block>
-  <block id="e66ce730725b027d172b1b3ee7612614" category="list-text"><block ref="e66ce730725b027d172b1b3ee7612614" category="inline-link-rx"></block></block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link-macro"></block>
   <block id="a5cd00357f60ad0eaa681bb68df15c6d" category="doc">删除 Azure NetApp Files</block>
@@ -438,5 +430,13 @@
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每个文件的附件数限制为25 MB。支持以下文件扩展名：txt、log、pdf、jp6/jpeu、rtf、 doc/docx、xls/xlsx和csv。</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*更新案例注释*：提供有关您的问题的更多详细信息、或者选择*上传文件*最多附加五个文件。</block>
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
-  <block id="6ecf0fff968ff9d17f1f524f90c9a9fe" category="list-text">直接从BlueXP将NFS或SMB数据迁移到Azure NetApp Files。数据迁移由 NetApp 的 Cloud Sync 服务提供支持。</block>
+  <block id="5ae0183e058629fb85c6246d99460224" category="list-text">直接从BlueXP将NFS或SMB数据迁移到Azure NetApp Files。数据迁移由BlueXP副本和同步提供支持。</block>
+  <block id="29a7b2441d86b88dc7b6b010d54ea1ea" category="inline-link">了解有关BlueXP复制和同步的更多信息</block>
+  <block id="b21bc087b016de9c9d4df482b82dd508" category="paragraph"><block ref="b21bc087b016de9c9d4df482b82dd508" category="inline-link-rx"></block></block>
+  <block id="08db1d63700c3fa1c62acd4830447cc5" category="list-text">借助人工智能(AI)驱动的技术、BlueXP分类可帮助您了解数据上下文并识别驻留在Azure NetApp Files 帐户中的敏感数据。</block>
+  <block id="726d1cad4d0527532460d1a853919ebc" category="inline-link">了解有关BlueXP分类的更多信息</block>
+  <block id="a77bc623afdc17e8c5a78facbb8e1c59" category="paragraph"><block ref="a77bc623afdc17e8c5a78facbb8e1c59" category="inline-link-rx"></block></block>
+  <block id="db75f0488f4e9bbad86a02da9a572896" category="inline-link">BlueXP复制和同步文档</block>
+  <block id="fb74755ec9e51eecce1be084a0ce803a" category="list-text"><block ref="fb74755ec9e51eecce1be084a0ce803a" category="inline-link-rx"></block></block>
+  <block id="cc4556ad288d7fd7e7c9f944615b36c2" category="paragraph">现在，您可以直接从 Cloud Manager 将 NFS 或 SMB 数据迁移到 Azure NetApp Files 。数据同步由BlueXP复制和同步提供支持。</block>
 </blocks>
