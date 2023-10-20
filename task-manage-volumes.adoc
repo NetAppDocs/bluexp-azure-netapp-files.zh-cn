@@ -4,7 +4,7 @@ permalink: task-manage-volumes.html
 keywords: azure netapp files, delete volumes, delete nfs volumes, netapp account, capacity pool, change service level 
 summary: 设置工作环境后，您可以管理 Azure NetApp Files 帐户，容量池，卷和快照。 
 ---
-= 管理 Azure NetApp Files 的卷
+= 管理现有卷
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
