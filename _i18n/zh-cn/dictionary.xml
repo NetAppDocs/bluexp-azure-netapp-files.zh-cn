@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="5ef8b3581bd08eb7bd7df9da47cee4d9" category="paragraph">从 Azure 中，向 Azure AD 应用程序授予权限，并复制应用程序（客户端） ID ，目录（租户） ID 和客户端密钥值。</block>
-  <block id="9f6195430155a4712fbd4733de1876ca" category="doc">设置 Azure AD 应用程序</block>
   <block id="9e0b4c608c2ed027fef07ddc68aae407" category="inline-link">Microsoft Azure 文档：所需权限</block>
   <block id="f628a927678590abbad75664aa87e9c9" category="paragraph">要创建 Active Directory 应用程序并将此应用程序分配给角色，您必须在 Azure 中拥有适当的权限。有关详细信息，请参见<block ref="f85f976c363ea77b8f2232a1ebbc4d2d" category="inline-link-rx"></block>。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
-  <block id="c9bae6707a626ab71ed3b97345b5becf" category="list-text">从 Azure 门户中，打开 * Azure Active Directory* 服务。</block>
   <block id="abcaecfb112ec16a9054b876f99d7cf4" category="inline-image-macro">显示 Microsoft Azure 中 Active Directory 服务的屏幕截图。</block>
-  <block id="68c3725b0e9e056e03b80e909714f158" category="paragraph"><block ref="68c3725b0e9e056e03b80e909714f158" category="inline-image-macro-rx" type="image"></block></block>
   <block id="af88b24a1b0f5294f806d8d9f2744f27" category="list-text">在菜单中，单击 * 应用程序注册 * 。</block>
   <block id="cce8aa4eda34a5338284d12bd518d218" category="list-text">创建应用程序：</block>
   <block id="0e1ac21d4b9ed97a0c89007cafe6b733" category="list-text">单击 * 新建注册 * 。</block>
@@ -16,14 +12,10 @@
   <block id="135a1682a5c17ecdf84e57a4dc0c0959" category="list-text">* 重定向 URI* ：可以将此字段留空。</block>
   <block id="9909e23ede42f2318acada35ac10bd3e" category="list-text">单击 * 注册 * 。</block>
   <block id="e762ce4f71e8abc9d8deee4d4b7277fe" category="list-text">复制 * 应用程序（客户端） ID* 和 * 目录（租户） ID* 。</block>
-  <block id="8fd7e29954792b2ee199fcf4fb0e7dec" category="inline-image-macro">显示 Azure Active Directory 中某个应用程序的应用程序（客户端） ID 和目录（租户） ID 的屏幕截图。</block>
-  <block id="5ad288ed66148804e3cf03d2bc5454e7" category="paragraph"><block ref="5ad288ed66148804e3cf03d2bc5454e7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="814ab761b05ac26a224a99eac97f2f4d" category="list-text">单击 * 证书和密码 &gt; 新客户端密钥 * 。</block>
   <block id="56c696c4118c8dc3d2947c159fdbbb7c" category="list-text">提供密钥和持续时间的问题描述。</block>
   <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">单击 * 添加 * 。</block>
   <block id="a91d60261e2974b6b9f5d3d3d0abacdd" category="list-text">复制客户端密钥的值。</block>
-  <block id="5a3a4c596a95b6a9851a1c7b6539b0ea" category="inline-image-macro">Azure 门户的屏幕截图，其中显示了 Azure AD 服务主体的客户端密钥。</block>
-  <block id="950ba75831d4d2d13e40a65143eb8494" category="paragraph"><block ref="950ba75831d4d2d13e40a65143eb8494" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4c52768b52ca020200e5a926929d951d" category="paragraph">您必须将服务主体绑定到您的 Azure 订阅，并为其分配具有所需权限的自定义角色。</block>
   <block id="c7fd7910cc533c79ed570ea74704425d" category="inline-link">在 Azure 中创建自定义角色</block>
   <block id="ef25c1a0b85945d65e29d5346a5dd23f" category="list-text"><block ref="e0180ab247b74a9d02ca0dcc4d9ef2d3" category="inline-link-rx"></block>。</block>
@@ -180,16 +172,11 @@
   <block id="d75d347ae1d51e933d39fea688b0abf1" category="sidebar">Azure NetApp Files 文档</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
-  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">快速入门</block>
   <block id="edbcf53081d21cc9d84e0c1b1c31c425" category="sidebar">创建工作环境</block>
   <block id="6ade0d3f74b8a5014c9cb307d47a0cb4" category="sidebar">使用 Azure NetApp Files</block>
   <block id="9be5a2eae9bab39aee7d0161c137cd43" category="sidebar">创建并挂载卷</block>
   <block id="9038e7cfcfe9bb9df9afd31371070be8" category="sidebar">管理现有卷</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
-  <block id="e2439a8512b353f75391ba9c346bc84d" category="sidebar">管理卷</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客社区</block>
-  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
   <block id="29c251ed5a57bbffe470654ccbbe714c" category="section-title">2021 年 4 月 11 日</block>
   <block id="dbbd746e2d2c019dcb0c3c40b74f4f75" category="section-title">2021 年 3 月 8 日</block>
   <block id="95fa237a7a6265df02b6172c4be387f7" category="section-title">2020 年 8 月 3 日</block>
@@ -211,7 +198,6 @@
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社区</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文档。</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com （反馈电子邮件）</block>
   <block id="0b7a672df763c13d4ee88f17e17d5dd5" category="list-text">在 _Actions_ 下添加以下权限：</block>
   <block id="6a7ebeee8a870484e91de7ed605595e5" category="section-title">BlueXP中的其他功能</block>
   <block id="e13891a96dda51dfecfd01addc1b62e1" category="paragraph">请注意、您的订阅和费用由Azure NetApp Files 服务维护、而不是由BlueXP维护。</block>
@@ -221,7 +207,6 @@
   <block id="a42000fc4cefeab473a0606b7c2ccf98" category="inline-image-macro">单击删除Azure NetApp Files 以从BlueXP界面中删除卷的屏幕截图。</block>
   <block id="b4c67aed64d2fb76a8c75220b0aa8a20" category="paragraph"><block ref="b4c67aed64d2fb76a8c75220b0aa8a20" category="inline-image-macro-rx" type="image"></block></block>
   <block id="891df488cfe13b44b72c19fdd67847d8" category="summary">Azure NetApp Files 是一种 Microsoft Azure 原生 ，可为您的核心业务应用程序提供高性能文件存储服务。本文档介绍如何使用NetApp BlueXP设置和管理Azure NetApp Files。</block>
-  <block id="5602b280d4911e770a8becad04f888a4" category="summary">设置Azure Active Directory应用程序后、请在BlueXP中创建Azure NetApp Files 工作环境、以便开始创建所需的卷。</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">在向NetApp技术支持部门创建支持案例之前、您需要向BlueXP添加一个NetApp 支持站点 帐户、然后注册获取支持。</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支持注册概述</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">激活支持授权有两种形式的注册：</block>
@@ -255,7 +240,6 @@
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">搜索BlueXP知识库、查找有助于解决问题的文章。</block>
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">加入BlueXP社区、关注正在进行的讨论或创建新的讨论。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您当前正在查看的BlueXP文档。</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我们非常重视您的反馈意见。提交反馈以帮助我们改进BlueXP。</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支持选项之外、您还可以在激活支持后与NetApp支持专家合作解决任何问题。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服务*：选择与问题描述 关联的服务。例如、当特定于技术支持问题描述 时、如果服务中包含工作流或功能、则为BlueXP。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作环境*：如果适用于存储、请选择* Cloud Volumes ONTAP *或* on-Prem*、然后选择关联的工作环境。</block>
@@ -273,18 +257,13 @@
   <block id="890592abc0c43fcc710edb1dbdeaf2b3" category="paragraph">通过名为"模板"的BlueXP功能、您可以创建针对特定应用程序(例如数据库或流式服务)的工作负载要求进行优化的卷。如果您的组织已创建应使用的卷模板，请按照说明进行操作 <block ref="841f2986c591e442944fbc4b9e18c81f" category="inline-xref-macro-rx"></block>。</block>
   <block id="71fe7750eaf8ad346bfa5f8d17e350aa" category="paragraph">BlueXP会配置卷并显示一个页面、以便您可以查看进度。</block>
   <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">从BlueXP中访问挂载说明、以便将卷挂载到主机。</block>
-  <block id="fdd2d4e114c9279ba4b9834452d83e5e" category="summary">BlueXP需要设置和管理Azure NetApp Files 的权限。您可以通过创建和设置Azure Active Directory应用程序以及获取BlueXP所需的Azure凭据来为Azure帐户授予所需权限。</block>
-  <block id="888f309d00a2cbabb98990f75343ace6" category="paragraph">BlueXP需要设置和管理Azure NetApp Files 的权限。您可以通过创建和设置Azure Active Directory (AD)应用程序以及获取BlueXP所需的Azure凭据来为Azure帐户授予所需权限。</block>
-  <block id="9a4aebca22c886eb8bdac5c93ce53cca" category="paragraph">创建一个Azure AD应用程序和服务主体、BlueXP可使用该应用程序和服务主体进行基于角色的访问控制。</block>
   <block id="c1433d2b36933dc034014d989542d7e9" category="list-text">*帐户类型*：选择帐户类型(任何将适用于BlueXP)。</block>
   <block id="b1aa1d55e881ad620ccb7139a00c81e3" category="paragraph">在BlueXP中创建Azure NetApp Files 工作环境时、您需要提供应用程序(客户端) ID和目录(租户) ID。BlueXP使用ID以编程方式登录。</block>
-  <block id="6a8c94be79eba11a4cff5b050f8725a0" category="list-text">为应用程序创建客户端密钥、以便BlueXP可以使用它向Azure AD进行身份验证：</block>
   <block id="c8bbf58eacf91dbdd1fe26d0891f53b2" category="paragraph">此时，您的 AD 应用程序已设置完毕，您应已复制应用程序（客户端） ID ，目录（租户） ID 和客户端密钥值。添加Azure NetApp Files 工作环境时、您需要在BlueXP中输入此信息。</block>
   <block id="c86a116404367cba7aa3de3c0bc355d4" category="paragraph">BlueXP的服务主体现在具有该订阅所需的Azure权限。</block>
   <block id="ec8be1aa6f229a1cfbf31d037b056568" category="summary">了解BlueXP中Azure NetApp Files 支持的新增功能。</block>
   <block id="dd8cfbf7cdf2a4e727620130a84e82ae" category="paragraph">了解BlueXP中Azure NetApp Files 的新增功能。</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP通知</block>
-  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">结果</block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">下一步是什么？</block>
   <block id="333d9261c295516441352ec57f1fbd5a" category="section-title">编辑卷的大小和标记</block>
@@ -306,14 +285,12 @@
   <block id="cb9e3791dcb67c8a699c104be6a1c49c" category="paragraph"><block ref="cb9e3791dcb67c8a699c104be6a1c49c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="11832df968cbb4cdb8e45984c11a77d0" category="list-text">单击 * 添加凭据 * ，然后按照向导中的步骤进行操作。</block>
   <block id="221a3347761fd117ac4eff9ade4378ad" category="list-text">*凭据位置*：选择* Microsoft Azure &gt; BlueXP*。</block>
-  <block id="5d1285233566f1379ef88c010de06abc" category="list-text">* 定义凭据 * ：输入有关授予所需权限的 Azure Active Directory 服务主体的信息：</block>
   <block id="734082edf44417dd19cc65943aa65c36" category="list-text">客户端密钥</block>
   <block id="5f92aba7d335e90da33ac643d56ed817" category="list-text">应用程序(客户端) ID</block>
   <block id="ac1fdeeca5975112ea2d53b754a4c94f" category="list-text">目录(租户) ID</block>
   <block id="c543fc2439a41974bc2b6bac672d9710" category="inline-xref">已创建AD应用程序</block>
   <block id="afc754526203b8139d9e8e3b479e16eb" category="paragraph">您应该已在使用时捕获此信息 <block ref="4c04735d63ac87af1416aeb4d3d106f8" category="inline-xref-macro-rx"></block>。</block>
   <block id="cc993521b8909c4085841bf25067d9c0" category="list-text">* 查看 * ：确认有关新凭据的详细信息，然后单击 * 添加 * 。</block>
-  <block id="09615c2374e9b5e0bb5df8ac7a3d3904" category="paragraph">设置Azure Active Directory应用程序并将凭据添加到BlueXP后、请创建一个Azure NetApp Files 工作环境、以便您可以开始创建所需的卷。</block>
   <block id="2083c7d3800af1239db96fe1162f3655" category="list-text">选择* Microsoft Azure*。</block>
   <block id="911c1f7504e1a21488e846b256b7bf1e" category="list-text">在Azure NetApp Files 旁边、选择*发现*。</block>
   <block id="a34beec1b7d6385ec53b27551b09442d" category="list-text">在详细信息页面上、输入工作环境名称并选择先前设置的凭据。</block>
@@ -431,13 +408,27 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">获得云提供商文件服务支持</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">有关与云提供商文件服务、其基础架构或使用该服务的任何解决方案相关的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">要获得针对BlueXP及其存储解决方案和服务的技术支持、请使用下面所述的支持选项。</block>
-  <block id="0e9444646fd7a9680fc38b22818537e3" category="section-title">第1步：创建AD应用程序</block>
   <block id="fb9a62d97d21e431e752501f84624d12" category="section-title">第2步：将应用程序分配给角色</block>
   <block id="8aa26a83223c9e21349efd7c3717ce88" category="section-title">第3步：将凭据添加到BlueXP</block>
-  <block id="a411739869aa60f9730ad4b362f8561a" category="summary">通过设置Azure Active Directory应用程序和创建工作环境开始使用Azure NetApp Files。</block>
   <block id="65ce4dce26160be29539699c6623e379" category="doc">入门工作流</block>
-  <block id="916f4838efcb3a299051cc70e41f521e" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="ed69a3c57e90df42781856a93d94fa32" category="inline-link-macro-rx"></block></block>
   <block id="f952808a17fec1373e3f634132b93787" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="b5471f633d6bbd5984c5b9bab2234762" category="inline-link-macro-rx"></block></block>
   <block id="b8d5d2846f8945e381075b2ce9a76df4" category="paragraph">在BlueXP中、单击*添加工作环境*&gt;* Microsoft AzAzure *&gt;* Azure NetApp Files *、然后提供有关AD应用程序的详细信息。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="dece545908f7d551fbfc273f6cc28bd0" category="summary">设置Microsoft Entra应用程序后、在BlueXP中创建Azure NetApp Files工作环境、以便开始创建所需的卷。</block>
+  <block id="68edde29e94c43ede539f86c9f17f4cf" category="paragraph">设置Microsoft Entra应用程序并将凭据添加到BlueXP后、请创建一个Azure NetApp Files工作环境、以便开始创建所需的卷。</block>
+  <block id="9828caa55f8611addd0e5af14cd444c5" category="summary">BlueXP需要设置和管理Azure NetApp Files 的权限。您可以通过创建和设置Microsoft Entra应用程序以及获取BlueXP所需的Azure凭据来为Azure帐户授予所需权限。</block>
+  <block id="6db31f7ad9ac5c8a399245b8721663fc" category="doc">设置Microsoft Entra应用程序</block>
+  <block id="28f3ebeb284e106f3db1ecdcf0c0d2ff" category="section-title">第1步：创建应用程序</block>
+  <block id="1e6c9b3850b2a8aff77429d3da407ad1" category="paragraph">创建BlueXP可用于基于角色的访问控制的Microsoft Entra应用程序和服务主体。</block>
+  <block id="3acc75f616414df16724fc2f4fe192eb" category="list-text">从Azure门户中，打开*Microsoft Entra ID*服务。</block>
+  <block id="5ee9dc93089da3e95c9863f5259127a3" category="paragraph"><block ref="5ee9dc93089da3e95c9863f5259127a3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7f2c8aa68f18e907a3c5a92e556d4a8a" category="inline-image-macro">屏幕截图、显示了Microsoft Entra ID中应用程序的应用程序(客户端) ID和目录(租户) ID。</block>
+  <block id="9f4ee24450c803ea94c43753456d43d1" category="paragraph"><block ref="9f4ee24450c803ea94c43753456d43d1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f397beec7c156a0c172682237bca0f10" category="list-text">为应用程序创建客户端密钥、以便BlueXP可以使用它通过Microsoft Entra ID进行身份验证：</block>
+  <block id="9056be4df2e385c15b0e73176bcf8af3" category="inline-image-macro">Azure门户的屏幕截图、其中显示了Microsoft Entra服务主体的客户端密钥。</block>
+  <block id="12714cc76b41e78029a66f330408bd82" category="paragraph"><block ref="12714cc76b41e78029a66f330408bd82" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="10d9864d222fd249479246f9c50df58c" category="list-text">*定义凭据*：输入有关授予所需权限的Microsoft Entra服务主体的信息：</block>
+  <block id="ffbef04ea072f1887001d16556efc89e" category="summary">通过设置Microsoft Entra应用程序和创建工作环境开始使用Azure NetApp Files。</block>
+  <block id="4825dc1eb26b7e7de707e1565fcb2692" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="ceb71631b57ba9aa78ded8805cd28ebf" category="inline-link-macro-rx"></block></block>
+  <block id="0e63ec6ed03b6c3507b12798044de570" category="paragraph">在Azure中、为Microsoft Entra应用程序授予权限、并复制应用程序(客户端) ID、目录(租户) ID和客户端密钥值。</block>
 </blocks>

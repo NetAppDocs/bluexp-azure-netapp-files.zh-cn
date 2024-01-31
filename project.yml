@@ -23,7 +23,7 @@ sidebar:
       url: "/concept-azure-netapp-files.html"
     - title: 入门工作流
       url: "/task-quick-start.html"
-    - title: 设置 Azure AD 应用程序
+    - title: 设置Microsoft Entra应用程序
       url: "/task-set-up-azure-ad.html"
     - title: 创建工作环境
       url: "/task-create-working-env.html"
@@ -43,28 +43,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 法律声明
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 入门
-    links:
-    - title: 了解 Azure NetApp Files
-      url: concept-azure-netapp-files.html
-    - title: 快速入门
-      url: task-quick-start.html
-  - title: 使用 Azure NetApp Files
-    links:
-    - title: 创建卷
-      url: task-create-volumes.html
-    - title: 管理卷
-      url: task-manage-volumes.html
-  - title: 博客社区
-    links:
-    - title: NetApp 社区
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: BlueXP博客
-      url: https://cloud.netapp.com/blog
-    - title: 云网络研讨会
-      url: https://cloud.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family

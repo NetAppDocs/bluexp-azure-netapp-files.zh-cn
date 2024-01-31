@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-quick-start.html 
 keywords: set up azure netapp files, quick start 
-summary: 通过设置Azure Active Directory应用程序和创建工作环境开始使用Azure NetApp Files。 
+summary: 通过设置Microsoft Entra应用程序和创建工作环境开始使用Azure NetApp Files。 
 ---
 = 入门工作流
 :hardbreaks:
@@ -14,11 +14,11 @@ summary: 通过设置Azure Active Directory应用程序和创建工作环境开�
 
 
 [role="lead"]
-通过设置Azure Active Directory应用程序和创建工作环境开始使用Azure NetApp Files。
+通过设置Microsoft Entra应用程序和创建工作环境开始使用Azure NetApp Files。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] link:task-set-up-azure-ad.html["设置 Azure AD 应用程序"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] link:task-set-up-azure-ad.html["设置Microsoft Entra应用程序"]
 [role="quick-margin-para"]
-从 Azure 中，向 Azure AD 应用程序授予权限，并复制应用程序（客户端） ID ，目录（租户） ID 和客户端密钥值。
+在Azure中、为Microsoft Entra应用程序授予权限、并复制应用程序(客户端) ID、目录(租户) ID和客户端密钥值。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] link:task-create-working-env.html["创建 Azure NetApp Files 工作环境"]
 [role="quick-margin-para"]
