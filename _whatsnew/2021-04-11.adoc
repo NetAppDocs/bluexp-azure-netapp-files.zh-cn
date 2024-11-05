@@ -1,0 +1,13 @@
+= 支持卷模板
+:allow-uri-read: 
+
+
+
+
+=== 支持卷模板
+
+通过新的应用程序模板服务，您可以为 Azure NetApp Files 设置卷模板。此模板应使您的工作更轻松，因为模板中已定义某些卷参数，例如，容量池，大小，协议，卷应驻留的 vNet 和子网等。如果已预定义某个参数，则只需跳到下一个 volume 参数即可。
+
+* https://docs.netapp.com/us-en/bluexp-remediation/concept-resource-templates.html["了解应用程序模板以及如何在环境中使用这些模板"^]
+* https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-create-volumes.html["了解如何使用模板创建 Azure NetApp Files 卷"]
+
