@@ -156,7 +156,7 @@ image:screenshot_settings_icon.gif["一个屏幕截图、显示了BlueXP控制�
 *** 应用程序(客户端) ID
 *** 目录(租户) ID
 +
-您应该已在使用时捕获此信息 <<Create the AD application,已创建AD应用程序>>。
+您应该在时捕获此信息<<create-AD-application,已创建AD应用程序>>。
 
 
 

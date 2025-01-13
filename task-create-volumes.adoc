@@ -41,9 +41,15 @@ image:screenshot_anf_create_account.png["创建 Azure NetApp Files 帐户所需�
 如果要创建新的容量池，则需要指定一个大小并选择 https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-service-levels["服务级别"^]。
 
 +
-容量池的最小大小为 4 TB 。您可以指定大小的倍数为 4 TB 。
+容量池的最小大小为 1 TB 。
 
-** * 详细信息和标记 * ：输入卷名称和大小，卷应驻留的 vNet 和子网，并可选择指定卷的标记。
+** *详细信息和标记*：输入卷名称和大小、卷应驻留的vNet和子网，并可选择为卷指定标记。选择*Standard"或*Basic*网络连接。*Standard"支持虚拟网络(vNet)功能，而*Basic*则降低了IP限制(小于1000)，并且没有为卷提供额外的vNet功能。
++
+以下示例描述了一个名为*demo-s*的卷，该卷不会应用任何标记，并指示该卷将使用支持vNet功能的*Standard"网络连接。
+
++
+image:screenshot-details-tags-create-volume.gif["示例卷的屏幕截图。"]
+
 ** * 协议 * ：选择 NFS 或 SMB 协议并输入所需信息。
 +
 下面是 NFS 详细信息的示例。
@@ -62,9 +68,6 @@ image:screenshot_anf_smb.gif["设置 SMB 卷所需字段的屏幕截图。"]
 . 如果要基于现有卷的快照创建此卷，请从 Snapshot 名称下拉列表中选择此快照。
 . 单击 * 添加卷 * 。
 
-
-.结果
-此时，新卷将添加到工作环境中。
 
 继续 <<挂载卷,挂载云卷>>。
 
