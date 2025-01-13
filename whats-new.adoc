@@ -28,6 +28,34 @@ summary: 了解BlueXP中Azure NetApp Files 支持的新增功能。
 
 
 
+== bbe4d8abcc3519b138a73b8e46ee2119
+
+
+
+=== 需要新权限
+
+现在、要从BlueXP管理Azure NetApp Files卷、需要以下权限：
+
+Microsoft.Network/virtualNetworks/subnets/read
+
+读取虚拟网络子网需要此权限。
+
+如果您当前正在从BlueXP管理Azure NetApp Files、则需要将此权限添加到与先前创建的Microsoft Entra应用程序关联的自定义角色。
+
+https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.html["了解如何设置Microsoft Entra应用程序和查看自定义角色权限"]。
+
+
+
+== 9d5b3307d5a7d5905623bf21ab049bdd
+
+
+
+=== 不再支持卷模板
+
+您无法再使用模板创建卷。此操作与BlueXP修复服务关联、此服务不再可用。
+
+
+
 == 2021 年 4 月 11 日
 
 
